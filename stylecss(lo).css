@@ -1,0 +1,23 @@
+.kotak{
+	background: url("img/lorenzo-herrera-p0j-mE6mGo4-unsplash (1).jpg")no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-size: 100%;
+}
+
+.form-container{
+	position: absolute;
+	top: 15vh;
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: #214E8C;
+	opacity: .8;
+	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 678px){
+	.kotak{
+		background-size: 300%;
+	}
+}
